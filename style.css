@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pixelify+Sans:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+body{
+    margin: 0;
+    background-color:	#dbc1ac;
+    
+}
+h1{
+      display: flex;
+justify-content: center;
+    color: #38220f;
+      font-family: "Pixelify Sans", sans-serif;
+      font-weight: 30;
+;
+}
+#display{
+    padding: 20px;
+    border: 2px solid black;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    background-color: #634832;
+}
+
+#btns{
+    display: flex;
+justify-content: center;
+}
+button{
+    margin: 10px;
+    background-color: #ece0d1;
+    color: #38220f;
+    font-size: large;
+    cursor: pointer;
+}
+button:hover{
+      background-color: #967259;
+      color: white;
+}
