@@ -1,11 +1,16 @@
 
 
 function generatePassword(){
-    for(let i = 0; i < 88; i++){
-   let input = Math.floor(Math.random()*88)
+let text = ""
+ for(let i = 0; i < 16; i++){
+let randomCharacters
    let characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+-=[]{}|;:,.<>?"
-   characters.charAt(input)
-   console.log(characters.charAt(input))}
+   let input = Math.floor(Math.random()* characters.length)
+   characters.charAt(input) 
+    randomCharacters = characters.charAt(input)
+text += randomCharacters}
+
+  console.log(text)
 };
 
 
