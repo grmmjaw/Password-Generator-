@@ -9,8 +9,7 @@ let randomCharacters
    characters.charAt(input) 
     randomCharacters = characters.charAt(input)
 text += randomCharacters}
-
-  console.log(text)
+    
 };
 
 
@@ -20,6 +19,6 @@ function deletePassword(){
 };
 const generateBtn = document.getElementById("generateBtn");
 const deleteBtn = document.getElementById("deleteBtn");
-
+const display = document.getElementById("display")
 generateBtn.addEventListener("click",generatePassword);
 deleteBtn.addEventListener("click",deletePassword)
