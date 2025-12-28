@@ -22,6 +22,11 @@ justify-content: center;
     border: 2px solid black;
     margin: 0 auto 10px auto;
     background-color: #634832;
+   text-align: center;
+    color: #dbc1ac;
+     font-family: "Pixelify Sans", sans-serif;
+      font-size: 40px;
+      letter-spacing: 5px;
 }
 
 
