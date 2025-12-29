@@ -13,14 +13,16 @@ justify-content: center;
     color: #38220f;
       font-family: "Pixelify Sans", sans-serif;
       font-weight: 30;
-;
+      margin-bottom: 200px;
 }
 #display{
     display: block;
     width: 700px;
     padding: 20px;
-    border: 2px solid black;
+    border: none;
+    border-radius: 5px;
     margin: 0 auto 10px auto;
+    margin-bottom: 100px;
     background-color: #634832;
    text-align: center;
     color: #dbc1ac;
@@ -40,8 +42,16 @@ button{
     color: #38220f;
     font-size: large;
     cursor: pointer;
+    border: none;
+     border-radius: 5px;
+    padding: 20px;
+    font-family: "Pixelify Sans", sans-serif;
+      font-size: 40px;
 }
 button:hover{
       background-color: #967259;
       color: white;
+}
+button:active{
+    background-color: #967259c4;
 }
