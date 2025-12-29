@@ -13,7 +13,8 @@ justify-content: center;
     color: #38220f;
       font-family: "Pixelify Sans", sans-serif;
       font-weight: 30;
-      margin-bottom: 200px;
+      margin-bottom: 130px;
+      font-size: 60px;
 }
 #display{
     display: block;
@@ -54,4 +55,14 @@ button:hover{
 }
 button:active{
     background-color: #967259c4;
+}
+.main{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+}
+#svg {
+ 
 }
